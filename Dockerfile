@@ -33,7 +33,7 @@ RUN usermod -aG sudo workshop
 
 COPY ex/ /bin/
 
-RUN chmod 701 /bin/ex*
+RUN chmod 705 /bin/ex* && chmod 705 submit
 
 USER workshop
 
