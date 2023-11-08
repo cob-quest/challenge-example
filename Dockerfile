@@ -63,6 +63,7 @@ RUN mkdir -p folder_a/folder_b/folder_c; \
   echo "This is a hidden file!" > folder_a/folder_b/folder_d/folder_f/.file4.txt;
 
 COPY instructions.txt /etc/homework/.hidden.txt
+COPY instructions /home/workshop/instructions
 
 # Start SSH
 EXPOSE 22
