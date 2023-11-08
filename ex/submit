@@ -1,2 +1,4 @@
 #!/bin/sh
+
+source /etc/environment
 curl -X POST -u "$PLATFORM_USERNAME:$PLATFORM_PASSWORD" -H "Content-Type: application/json" -d "{\"token\": \"$ATTEMPT_TOKEN\",\"result\":21.2}" traefik.platform/api/v1/platform/attempt/submit
