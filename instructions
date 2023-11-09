@@ -3,7 +3,30 @@ _._     _,-'""`-._
     `-.-' \ )-`( , o o)
           `-    \`_`"'-
 
-Instructions
 ------------
-1. Run ex8 and answer the question
-2. Run submit after finishing the test and exit.
+# Instructions
+------------
+After you have completed the challenge, run the /usr/bin/submit script to submit your answers
+
+------------
+# Question 1
+------------
+Find the file .hidden.txt, somewhere in the filesystem.
+The contents of the file will instruct you with the next steps.
+
+------------
+# Question 2
+------------
+Set the environment variable YOUR_NAME to any value from the command line
+
+------------
+# Question 3
+------------
+How many occurrences of “were” appear in pasta/copypasta1.txt?
+Write your answer in a file named q3 in your home directory
+
+------------
+# Question 4
+------------
+What is the group ID (gid) of the games account? 
+Write your answer in a file named q4 in your home directory

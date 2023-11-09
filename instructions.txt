@@ -1,2 +1,1 @@
-Do not modify the contents of this file!
-Copy this file to folder_a under your home directory, then rename it to nothidden.txt
+Create a file named q1 in your home directory with the full path of this file as the content of the file

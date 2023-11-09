@@ -65,6 +65,9 @@ RUN mkdir -p folder_a/folder_b/folder_c; \
 COPY instructions.txt /etc/homework/.hidden.txt
 COPY instructions /home/workshop/instructions
 
+COPY --chown=workshop:workshop ex/mark.py pasta/mark.py
+RUN chmod 777 pasta/mark.py
+
 # Start SSH
 EXPOSE 22
 
